@@ -40,7 +40,7 @@ intersection() {
             mybox(x1=-7.5, x2=-8.3,   y = 3.5, height= 1, z1=1, z2=7);
             mybox(x1=-7.5, x2=-8.3,   y = -3.5, height= 1, z1=1, z2=7);
             hull() {
-                mybox(x1= 7.5, x2= 9.5,   height=8, z=4.48, depth=0.0001);
+                mybox(x1= 7.5, x2= 9.5,   height=8, z=4.8, depth=0.0001);
                 mybox(x1= 7.5, x2= 8.3,   height=8,  z=2, depth=0.0001);
             }
             hull() {
